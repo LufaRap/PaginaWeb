@@ -1,0 +1,150 @@
+body{
+    background-color: antiquewhite;
+    border-style: groove;
+}
+
+
+
+/** Este es el menu*/
+nav{
+
+top: 100px;
+left: 0;
+right: 0;
+margin: 30px auto;
+width: 50%;
+color: aliceblue;
+}
+
+
+nav > ul{
+display: table;
+overflow: hidden;
+width: 100%;
+background-color: #23212E;
+}
+
+nav > ul li{
+display: table-cell;
+}
+
+/*submenu*/
+
+nav > ul li: hover{
+    background-color: red        ;
+}
+
+
+
+
+
+nav > ul li a{
+
+color: #fff;
+display: block;
+line-height:20px;
+padding: 20px;
+position: relative;
+text-align: center;
+    text-decoration:none;} 
+
+
+nav ul li  .primero{
+background: #0e5061;
+
+}
+
+nav ul li  .segundo{
+background: #5da5a2;
+
+}
+
+nav ul li  .tercero{
+background: #f25724;
+
+}
+
+
+/***Esta es la barra social*/
+
+.social{
+
+  position: fixed;
+ margin-left: -40px;
+     
+  top: 300px;
+  z-index: 2000;
+
+}
+.social{
+list-style:circle;
+
+    text-decoration: 
+        none
+        ;
+}
+.social ul li a{
+display: inline-block;
+color: #fff;
+background-color: #000;
+padding: 10px 15px;
+text-decoration: none;
+
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+
+
+}
+
+.social ul li .icon-facebook{
+
+  background:#3b5998 ;
+    border-radius: 4px;
+        
+
+}
+
+.social ul li .icon-google{
+  background: #d95232;
+border-radius: 4px;
+}
+
+  .social ul li .icon-mail2{
+    background: #666666;
+border-radius: 4px;
+}
+
+    .social ul li .icon-twitter{
+      background:#00abf0 ;
+border-radius: 4px;
+}
+
+      .social ul li .icon-whatsapp{
+        background: green;
+             border-radius: 4px;
+}
+
+
+.social ul li a:hover{
+  padding: 20px 30px;
+  background: #0A160A;
+border-radius: 10px;
+}
+
+
+/***Parrafo**/
+
+.parrafo{
+    
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+        
+        
+        
+        
+}
